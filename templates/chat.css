@@ -70,7 +70,7 @@ html, body {
 */
 .sidebar {
 	float: left;
-	width: 15%;
+	width: 200px;
 	min-width: 100px;
 	height: 100%;
 	background-color: #FFFFFF;
@@ -81,7 +81,7 @@ html, body {
 .content {
 	display: block;
 	height: 100%;
-	width: 85%
+	margin-left: 201px;
 }
 	/*
 	text area style
@@ -95,13 +95,24 @@ html, body {
 		input area style
 	*/
 	.input_area {
-		
+		height: 50px;
+		width: auto;	
 	}
 	
 		.input_field {
 			display: inline-block;
+			line-height: 50px;
+		}
+			.input_field input {
+				min-width: 100px;
+				width: 800px;
+			}
 
-		}
+
 		.submit_field {
-			display: inline-block
+			display: inline-block;
+			line-height: 50px;
 		}
+
+			.submit_field input {
+			}
