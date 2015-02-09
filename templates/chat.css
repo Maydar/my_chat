@@ -71,18 +71,21 @@ html, body {
 */
 .sidebar {
 	float: left;
-	width: 200px;
+	width: 15%;
 	min-width: 100px;
 	height: 95%;
 	background-color: #FFFFFF;
-	border-right: 1px solid black;
 }
 
 /* content area style */
 .content {
-	display: block;
+	float: right;
 	height: 94%;
-	margin-left: 201px;
+	width: 85%;
+	border-left: 1px solid black;
+	padding-left: 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 	/*
 	text area style
@@ -90,7 +93,6 @@ html, body {
 	.text_area {
 		display: block;
 		height: 95%;	
-		padding-left: 20px;
 	}
 
 	/*
